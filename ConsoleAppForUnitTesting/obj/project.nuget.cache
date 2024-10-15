@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ewICBD5beKc=",
+  "dgSpecHash": "kSsDQk/1Ph0=",
   "success": true,
   "projectFilePath": "C:\\Users\\stety\\Documents\\PGDipDevOpsSoftEngLab\\ConsoleAppForUnitTesting\\ConsoleAppForUnitTesting.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\stety\\.nuget\\packages\\mstest.testframework\\3.6.1\\mstest.testframework.3.6.1.nupkg.sha512"
+  ],
   "logs": []
 }

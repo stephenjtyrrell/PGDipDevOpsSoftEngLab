@@ -1,0 +1,5 @@
+C:\Users\stety\Documents\PGDipDevOpsSoftEngLab\ConsoleAppForUnitTesting\obj\Debug\net8.0\ConsoleAppForUnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stety\Documents\PGDipDevOpsSoftEngLab\ConsoleAppForUnitTesting\obj\Debug\net8.0\ConsoleAppForUnitTesting.AssemblyInfoInputs.cache
+C:\Users\stety\Documents\PGDipDevOpsSoftEngLab\ConsoleAppForUnitTesting\obj\Debug\net8.0\ConsoleAppForUnitTesting.AssemblyInfo.cs
+C:\Users\stety\Documents\PGDipDevOpsSoftEngLab\ConsoleAppForUnitTesting\obj\Debug\net8.0\ConsoleAppForUnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\stety\Documents\PGDipDevOpsSoftEngLab\ConsoleAppForUnitTesting\obj\Debug\net8.0\ConsoleAppForUnitTesting.sourcelink.json
