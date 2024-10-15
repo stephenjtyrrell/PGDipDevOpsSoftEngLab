@@ -1,4 +1,4 @@
-﻿internal class Person
+﻿public class Person
 {
   private string name; // field
   public string Name   // property

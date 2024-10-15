@@ -3,10 +3,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConsoleAppForUnitTesting
 {
-    [TestClass]
     public class ProgramTest
     {
-        [TestMethod]
+        [Fact]
         public void TestPersonNameProperty()
         {
             // Arrange
@@ -18,10 +17,10 @@ namespace ConsoleAppForUnitTesting
             string actualName = person.Name;
 
             // Assert
-            Assert.AreEqual(expectedName, actualName, "The Name property did not return the expected value.");
+            Xunit.Assert.Matches(expectedName, actualName);
         }
 
-        [TestMethod]
+        [Fact]
         public void TestMainMethodWithSingleArgument()
         {
             // Arrange
@@ -36,11 +35,11 @@ namespace ConsoleAppForUnitTesting
 
                 // Assert
                 var result = sw.ToString().Trim();
-                Assert.AreEqual(expectedOutput, result, "The Main method did not output the expected value.");
+                 Xunit.Assert.Matches(expectedOutput, result);
             }
         }
 
-        [TestMethod]
+        [Fact]
         public void TestMainMethodWithMultipleArguments()
         {
             // Arrange
@@ -55,11 +54,11 @@ namespace ConsoleAppForUnitTesting
 
                 // Assert
                 var result = sw.ToString().Trim();
-                Assert.AreEqual(expectedOutput, result, "The Main method did not output the expected value.");
+                 Xunit.Assert.Matches(expectedOutput, result);
             }
         }
 
-        [TestMethod]
+        [Fact]
         public void TestMainMethodWithNoArguments()
         {
             // Arrange
@@ -74,7 +73,7 @@ namespace ConsoleAppForUnitTesting
 
                 // Assert
                 var result = sw.ToString().Trim();
-                Assert.AreEqual(expectedOutput, result, "The Main method did not output the expected value.");
+                 Xunit.Assert.Matches(expectedOutput, result);
             }
         }
     }
